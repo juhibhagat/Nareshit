@@ -1,0 +1,18 @@
+*{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #dddddd;
+    align-items: center;
+    border: 2px solid blue;
+   
+}
+.navbar navbar-expand-lg {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link-1{
+    
+}

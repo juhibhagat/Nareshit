@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +10,38 @@
     <link rel="stylesheet" href="../src/index.css">
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </head>
+
 <body>
-   <header>
-    <div><img src="../src/image/naresh-it-logo (1).png" alt="nareshit"></div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+    <header class="header-row">
+        <div><img src="../src/image/naresh-it-logo (1).png" alt="nareshit"></div>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Service</a>
+                    </div>
+                </div>
             </div>
+        </nav>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sign In
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" type="button">Log In</button></li>
+              <li><button class="dropdown-item" type="button">Sign OUt</button></li>
+              <li><button class="dropdown-item" type="button">Registration</button></li>
+            </ul>
           </div>
-        </div>
-      </nav>
-   </header>
+    </header>
 </body>
+
 </html>
