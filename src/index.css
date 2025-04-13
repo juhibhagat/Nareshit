@@ -1,6 +1,10 @@
+
 header{
     display: flex;
     justify-content: space-between;
     background-color: #bc8ee8;
 
+}
+section{
+    height: 100px;
 }
